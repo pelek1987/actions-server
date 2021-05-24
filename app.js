@@ -8,7 +8,8 @@ app.get('/', (req, res) =>{
 
 const users = [
     {id: 1, name: "Paweł"},
-    {id: 2, name: "Agata"}
+    {id: 2, name: "Agata"},
+    {id: 3, name: "Martynka"}
 ];
 
 app.get('/api/users', (req, res) => {
